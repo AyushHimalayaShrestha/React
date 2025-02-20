@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
 import Layouts from './components/Layouts';
 
 function App() {
   return (
-    <>
+    <Fragment>
     <Layouts/>
-    </>
+    </Fragment>
   );
 }
 
