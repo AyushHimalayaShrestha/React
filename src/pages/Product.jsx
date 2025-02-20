@@ -7,7 +7,7 @@ const Product = () => {
     <Helmet>
       <title>Ecommerce-Productpage</title>
     </Helmet>
-      <h2>This is a product page.</h2>
+     
       
     </>
   )

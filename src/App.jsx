@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Layouts from './components/Layouts';
 
 function App() {
   return (
-    <Fragment>
+    <>
     <Layouts/>
-    </Fragment>
+    </>
   );
 }
 

@@ -3,6 +3,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import Layouts from './components/Layouts'
 import Homepage from './pages/Homepage'
 import Product from './pages/Product'
+import NotFound from './pages/NotFound'
 
 const MyRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const MyRoutes = () => {
           <Route index element={<Homepage/>}/>
           <Route path='product' element={<Product/>}/>
           </Route>
+          <Route path='/*' element={<NotFound/>}/>
         </Routes>
       </Router>
     </>
